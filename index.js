@@ -34,11 +34,11 @@ document.getElementById('studentForm').addEventListener('submit', function(event
     // Display selected profile photo
   var profileImg = document.getElementById('profileImg');
   if (gender === 'male') {
-    profileImg.src = './Male.jpg';
+    profileImg.src = './Profile/Male.jpg';
   } else if (gender === 'female') {
-    profileImg.src = './Female.png';
+    profileImg.src = './Profile/Female.png';
   } else {
-    profileImg.src = './default.png';
+    profileImg.src = './Profile/default.png';
   }
   
 
