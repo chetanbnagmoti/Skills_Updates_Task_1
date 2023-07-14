@@ -1,0 +1,30 @@
+.heading {
+    background-image: url('./BgId1.PNG');
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  @media (max-width: 576px) {
+    /* Styles for small screens */
+    .heading {
+      font-size: 20px;
+      height: 40px;
+      padding: 5px;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 991px) {
+    /* Styles for medium screens */
+    .heading {
+      font-size: 22px;
+      height: 45px;
+      padding: 8px;
+    }
+  }
+  
+  /* Add more media queries for other screen sizes as needed */
+  
